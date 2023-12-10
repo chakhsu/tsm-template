@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "outDir": "lib/cjs",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*"]
+}
