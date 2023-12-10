@@ -4,6 +4,5 @@
     "module": "ESNext",
     "target": "ESNext",
     "outDir": "lib/esm"
-  },
-  "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*"]
+  }
 }
