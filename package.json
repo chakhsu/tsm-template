@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chakhsu/ts-module-template"
+    "url": "https://github.com/chakhsu/tsm-template"
   },
-  "homepage": "https://github.com/chakhsu/ts-module-template",
+  "homepage": "https://github.com/chakhsu/tsm-template",
   "bugs": {
-    "url": "https://github.com/chakhsu/ts-module-template/issues"
+    "url": "https://github.com/chakhsu/tsm-template/issues"
   },
   "exports": {
     ".": {
