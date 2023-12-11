@@ -1,5 +1,5 @@
 {
-  "name": "ts-module-template",
+  "name": "tsm-template",
   "version": "v0.0.1",
   "description": "A typescript module template",
   "author": "Chakhsu.Lau",
@@ -31,12 +31,10 @@
   "module": "lib/esm/index.js",
   "types": "lib/types/index.d.ts",
   "files": [
-    "lib",
-    "src",
-    "!test"
+    "lib"
   ],
   "scripts": {
-    "clear": "rimraf lib",
+    "clear": "rimraf lib && rimraf coverage",
     "patch:cjs-type": "echo '{ \"type\": \"commonjs\" }' >> lib/cjs/package.json",
     "build:cjs": "tsc -P tsconfig.cjs.json && pnpm patch:cjs-type",
     "patch:esm-type": "echo '{ \"type\": \"module\" }' >> lib/esm/package.json",
