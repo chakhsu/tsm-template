@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["ESNext"],
     "rootDir": "src",
     "types": ["node", "jest"],
     "moduleResolution": "node",
